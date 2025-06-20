@@ -20,4 +20,4 @@ let userMessage = 'Hello Khaffy';
 console.log(userMessage);
 console.log(userMessage);
 
-console.log('i love mysekf');
+console.log('i love my mum');
