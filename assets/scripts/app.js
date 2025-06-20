@@ -19,3 +19,5 @@ let userMessage = 'Hello Khaffy';
 
 console.log(userMessage);
 console.log(userMessage);
+
+console.log('onidokudo ni AY');
