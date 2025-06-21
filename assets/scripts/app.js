@@ -110,3 +110,22 @@ const { name: username, age } = {
 
 console.log(username);
 console.log(age);
+
+//spread operator
+const hobbies2 = ['swimming', 'hiking'];
+const newHobbies = ['reading'];
+
+const mergedHobbies = [...hobbies2, ...newHobbies];
+console.log(mergedHobbies);
+
+const user = {
+  name: 'Shile',
+  age: 26,
+};
+
+const extendedUser = {
+  isAdmin: true,
+  ...user,
+};
+
+console.log(extendedUser);
