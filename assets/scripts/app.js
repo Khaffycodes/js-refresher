@@ -60,7 +60,7 @@ class User {
   }
 }
 
-const user1 = new User('shile', 25);
+const user1 = new User('shile', 15);
 console.log(user1);
 user1.greet();
 
@@ -105,7 +105,7 @@ console.log(lastName);
 //destructuring {}
 const { name: username, age } = {
   name: 'Shile',
-  age: 26,
+  age: 6,
 };
 
 console.log(username);
@@ -120,7 +120,7 @@ console.log(mergedHobbies);
 
 const user = {
   name: 'Shile',
-  age: 26,
+  age: 6,
 };
 
 const extendedUser = {
