@@ -129,3 +129,20 @@ const extendedUser = {
 };
 
 console.log(extendedUser);
+
+//control structure
+
+const password = prompt('Your password');
+
+if (password === 'Hello') {
+  console.log('Hello works');
+} else if (password === 'hello') {
+  console.log('hello works');
+} else {
+  console.log('access not granted');
+}
+
+const hobbies3 = ['swimming', 'hiking'];
+for (const hobby of hobbies3) {
+  console.log(hobby);
+}
