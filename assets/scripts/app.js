@@ -146,3 +146,29 @@ const hobbies3 = ['swimming', 'hiking'];
 for (const hobby of hobbies3) {
   console.log(hobby);
 }
+
+//using functions as values
+
+function handleTimeout() {
+  console.log('time out');
+}
+
+function handleTimeout2() {
+  console.log('time out....again');
+}
+
+setTimeout(handleTimeout, 2000);
+setTimeout(handleTimeout2, 3000);
+setTimeout(() => {
+  console.log('time out using anon function');
+}, 4000);
+
+//function inside function
+
+function init() {
+  function greet() {
+    console.log('Hiiiiiii');
+  }
+  greet();
+}
+init();
