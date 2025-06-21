@@ -83,3 +83,30 @@ console.log(editedHobbies);
 //creating objects with map
 const editedHobbiesObject = hobbies.map((item) => ({ text: item }));
 console.log(editedHobbiesObject);
+
+//exercise
+//Your task is to add the missing logic to a transformToObjects() function that should transform a
+//  list of numbers into a list of JavaScript objects.In the newly returned array,
+// every object must have a val key and the input array's number as a value.
+
+function transformToObjects(numbers) {
+  return numbers.map((item) => ({ text: item }));
+}
+
+const result = transformToObjects([2, 3, 4]);
+console.log(result);
+
+//destructuring []
+
+const [firstName, lastName] = ['Kafayat', 'Salau'];
+console.log(firstName);
+console.log(lastName);
+
+//destructuring {}
+const { name: username, age } = {
+  name: 'Shile',
+  age: 26,
+};
+
+console.log(username);
+console.log(age);
